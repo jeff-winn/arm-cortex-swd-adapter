@@ -1,2 +1,2 @@
 # ARM Cortex JTAG Adapter
-Contains schematics for an ARM Cortex-M/A JTAG adapter
+This device is intended to serve as a JLink adapter for the Segger JLink (https://www.segger.com/products/debug-probes/j-link) debug probe.

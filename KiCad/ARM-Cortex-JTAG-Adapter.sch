@@ -160,8 +160,8 @@ L Connector:Conn_ARM_JTAG_SWD_10 JTAG1
 U 1 1 5F64FD35
 P 4450 2150
 F 0 "JTAG1" V 3850 2250 50  0000 R CNN
-F 1 "485-752" V 3950 2300 50  0000 R CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 4450 2150 50  0001 C CNN
+F 1 "FTSH-105-01-L-DV-K" V 3950 2600 50  0000 R CNN
+F 2 "(Local):SAMTEC-FTSH-105-01-X-DV" H 4450 2150 50  0001 C CNN
 F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 4100 900 50  0001 C CNN
 	1    4450 2150
 	1    0    0    -1  

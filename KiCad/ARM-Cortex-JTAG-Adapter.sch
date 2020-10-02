@@ -166,29 +166,10 @@ F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresigh
 	1    4450 2150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Jumper_NC_Dual JP1
-U 1 1 5F696F05
-P 6500 1300
-F 0 "JP1" H 6500 1539 50  0000 C CNN
-F 1 "855-M50-3530342" H 6500 1448 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 6500 1300 50  0001 C CNN
-F 3 "~" H 6500 1300 50  0001 C CNN
-	1    6500 1300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	6250 1300 5850 1300
-Text Label 5850 1300 0    50   ~ 0
-GND
-Wire Wire Line
-	6750 1300 7200 1300
-Text Label 7200 1300 2    50   ~ 0
+	6800 1400 7250 1400
+Text Label 7250 1400 2    50   ~ 0
 TDI
-Wire Wire Line
-	6500 1400 6500 1800
-Text Label 6500 1800 1    50   ~ 0
-TDI_IN
 Wire Wire Line
 	4950 2350 5400 2350
 Text Label 5400 2350 2    50   ~ 0
@@ -196,9 +177,9 @@ TDI_IN
 Text Notes 5850 950  0    50   ~ 0
 Enable TDI Jumper
 Wire Notes Line
-	7350 750  7350 1900
+	7350 750  7350 1800
 Wire Notes Line
-	7350 1900 5650 1900
+	7350 1800 5650 1800
 Text Notes 1500 950  0    50   ~ 0
 JLink Interface
 Text Notes 3850 1000 0    50   ~ 0
@@ -215,4 +196,19 @@ Wire Notes Line
 	5650 750  5650 3300
 Wire Notes Line
 	1200 750  7350 750 
+$Comp
+L Device:Jumper JP1
+U 1 1 5F73C045
+P 6500 1400
+F 0 "JP1" H 6500 1664 50  0000 C CNN
+F 1 "855-M50-3530342" H 6500 1573 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6500 1400 50  0001 C CNN
+F 3 "~" H 6500 1400 50  0001 C CNN
+	1    6500 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 1400 6200 1400
+Text Label 5800 1400 0    50   ~ 0
+TDI_IN
 $EndSCHEMATC

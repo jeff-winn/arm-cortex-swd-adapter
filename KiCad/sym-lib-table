@@ -1,2 +1,4 @@
 (sym_lib_table
+  (lib (name m20-9990346)(type Legacy)(uri ${KIPRJMOD}/libs/m20-9990346.lib)(options "")(descr ""))
+  (lib (name m20-9990646)(type Legacy)(uri ${KIPRJMOD}/libs/m20-9990646.lib)(options "")(descr ""))
 )

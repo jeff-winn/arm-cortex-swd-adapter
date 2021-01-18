@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "ARM Cortex-M/A JTAG Adapter"
 Date "2020-09-23"
-Rev "0.1B"
+Rev "1.0A"
 Comp "https://github.com/jeff-winn/ARM-Cortex-JTAG-Adapter"
 Comment1 "For more information please visit the project website:"
 Comment2 ""

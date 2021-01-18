@@ -101,10 +101,11 @@ $Comp
 L Connector:Conn_ARM_JTAG_SWD_10 JTAG1
 U 1 1 5F64FD35
 P 4450 2150
-F 0 "JTAG1" V 3850 2250 50  0000 R CNN
-F 1 "FTSH-105-01-L-DV-K" V 3950 2600 50  0000 R CNN
-F 2 "(Local):SAMTEC-FTSH-105-01-X-DV" H 4450 2150 50  0001 C CNN
-F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 4100 900 50  0001 C CNN
+F 0 "JTAG1" V 3850 2275 50  0000 R CNN
+F 1 "485-752" V 3950 2325 50  0000 R CNN
+F 2 "(Local):Adafruit_SWD_Connector_PID_752" H 4450 2150 50  0001 C CNN
+F 3 "" V 4100 900 50  0001 C CNN
+F 4 "458-752" V 4450 2150 50  0001 C CNN "MPN"
 	1    4450 2150
 	1    0    0    -1  
 $EndComp
@@ -125,13 +126,13 @@ Wire Notes Line
 Text Notes 1500 950  0    50   ~ 0
 JLink Interface
 Text Notes 3850 1000 0    50   ~ 0
-10 Pin SWD Connector
+10 Pin JTAG/SWD Connector
 Wire Notes Line
 	5650 3300 3550 3300
 Wire Notes Line
 	3550 750  3550 3650
 Wire Notes Line
-	1200 975  1200 5175
+	1200 750  1200 5175
 Wire Notes Line
 	1200 3650 3550 3650
 Wire Notes Line
